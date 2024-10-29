@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me form</title>
+</head>
+<body>
+    <h2>Contact Me</h2> <br>
+    <form action = "mailto:bhupesh@gmail.com" method = "post" enctype="text/plain">    
+    <!--
+        action - Where to redirect, if entered a HTML file, will redirect there.
+                mailto: will redirect to mail to specified emal address.
+        method - post that email address
+    -->
+        <label>Your Name: </label>
+        <input type = "text" name = "your Name"> <br>      <!--name - Will use that string by default like your Nmae = Entered Name when posting mail.-->
+
+        <label>Your Email: </label>
+        <input type = "email" name="your Email"> <br>
+
+        <label>Your Message: </label> <br>
+        <textarea rows = "10" cols="30" name = "your Message"></textarea> <br>   <!--rowsm, cols to specify default size of message box.-->
+
+        <input type = "submit">
+    </form>
+</body>
+</html>

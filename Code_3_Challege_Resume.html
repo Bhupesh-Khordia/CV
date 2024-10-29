@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhupesh Yadav's Resume</title>
+</head>
+<body>
+    <table cellspacing = "20">  <!--Distance in pixels between 2 rows or columns. -->
+        <tr>
+            <td>    
+                <img src = "From Section 2/images/profile_picture.png" alt = "Bhupesh Yadav Profile Picture">
+                <!--
+                img - Image tag -- Selg Closing Tag, Used to load image. 
+                                    src = "" Either give local image path or URl to fetch from internet.
+                                    alt = "" What text will be shown in case of failing to feth image.
+                -->
+            </td>
+            <td>
+                <h1>Bhupesh Yadav</h1>
+                <p><em>I am a <strong>software engineer</strong>.</em></p> <!--This is a Paragraph Tag.-->
+                <!--
+                em - Emphasis tag -- Emphasize the text, make it Italic.
+                i - Italic Tag -- Only style the text as Italic.
+                strong - Strong Tag -- Marks the text as strong, makes it Bold.
+                b  - Bold Tag -- Only styles the text as Bold.
+                -->
+            
+                <!-- Refer to MDN documentation whenever needed. -->
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Education - </h2>
+
+    <ol type="I">
+        <li>10th from Tagore Public School</li>
+        <ul>
+            <li>96 %</li>
+        </ul>
+        <li>12th from Hansraj Mode School</li>
+        <ul>
+            <li>90 %</li>
+        </ul>
+        <li>B.Tech from <a href = "https://www.iitmandi.ac.in/">IIT Mandi</a></li>      <!-- a - Anchor Tag -- Used to link text to another webpage. Use href = "Link" to give the link.-->
+        <ul>
+            <li>8.8 CGPA</li>
+        </ul>
+    </ol>
+
+    <!--
+    ol - Ordered List -- To created a numbered List. Use type = "i", "A", etc for different numberings. Use start ="7" to start from number 7.
+    ul - Unordered List -- To create non numbered List.
+    li -- To add list items.
+
+    We can create nested Ordered and Unordered Lists.
+    -->
+    <hr>
+
+    <h2>My hobbies - </h2>
+    <ul>
+        <li>Learning New Things. </li>
+        <li>Gaming. </li>
+    </ul>
+
+    <hr>
+
+    <h2>Skills</h2>
+
+    <!-- Nested Table. Another Table in each column. -->
+    <table border = 1>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>App Development</td>
+                        <td>⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>DSA</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>ML</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <a href = "From Section 2/Code_4_contact.html" target="_blank">Contact Me</a>    <!--Using the anchor tag tog to link to another html file of our own. We can use target="_blank" to open the link in new tab. -->
+
+
+</body>
+</html>
